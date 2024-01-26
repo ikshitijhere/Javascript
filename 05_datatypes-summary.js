@@ -30,3 +30,31 @@
  } //function Object
 
  console.log(typeof Obj);
+
+ //+++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ // Stack(primitive) , Heap(Non-primitive)
+ let myinstaname = "ikshitij_here"
+ 
+ let anothername =  myinstaname
+ anothername = "_kshitij_here"
+
+ console.log(myinstaname);
+ console.log(anothername);
+
+ let user = {
+  email : "@Google.com",
+  upi : "user@ybl"
+ }
+
+ let user2 = user
+
+ user2.email = "@yahoo.com"
+
+ console.log(user.email);
+ console.log(user2.email);
+
+ // when in the stack the copy of the data is given 
+ // but in Heap the address is given that means any number of 
+ // variable assigned to the object it points to single object 
+ // memory in heap and if any changes made to it reflect in orignal
