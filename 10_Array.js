@@ -7,16 +7,16 @@ const DCheros = ["Batman","superman","flash"]
 // const allheros = marvalheros.concat(DCheros)
 // console.log(allheros);
 
-const allnewheros = [...marvalheros,...DCheros]
-// console.log(allnewheros);
+const allnewheros = [...marvalheros,...DCheros] // way to concat arrays
+console.log(allnewheros);
 
-const anotherarr = [1,2,3,[4,5,6,7],8,[9,4,[3,7]]]
+// const anotherarr = [1,2,3,[4,5,6,7],8,[9,4,[3,7]]]
 
-const arr  = anotherarr.flat(Infinity)
-console.log(arr);
+// const arr  = anotherarr.flat(Infinity)
+// console.log(arr);
 
 
-console.log(Array.isArray("Kshitij"))
-console.log(Array.from("Kshitij"))
+// console.log(Array.isArray("Kshitij"))
+// console.log(Array.from("Kshitij"))
 
 
