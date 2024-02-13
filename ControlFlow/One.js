@@ -42,6 +42,7 @@ const debitcard = true
 const loggedinfromgoogle = false
 const loggedinfromemail = true
 
+// LOGICAL OPERATORS
 if (userloggedin && debitcard) { // checking both conditions should be true
     console.log("Allow to buy cources");
 }
