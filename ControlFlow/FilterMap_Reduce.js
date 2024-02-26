@@ -56,8 +56,8 @@ console.log(userbooks);
 // console.log(newnums);
 
 // mynums.forEach((num)=>console.log(num+10)) // foreach dont return
-
-//------------------------ chaining-------------------------------- 
+----- chaining------
+//--------------------------------------------- 
 const newnums = mynums
                      .map((num) => num*10 ) // anything that is processed here will pass down
                      .map((num) => num + 1) // in map everything will return
